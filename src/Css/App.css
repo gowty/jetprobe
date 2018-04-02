@@ -1,0 +1,15 @@
+body{
+  background-color: #e7e7e7;
+}
+
+.sideNav {
+    width: 60px;
+    position: absolute;
+    height: 100%;
+    background-color: #fff;
+}
+
+.vl {
+    border-left: solid green;
+    height: 500px;
+}
