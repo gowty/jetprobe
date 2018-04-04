@@ -48,7 +48,7 @@ class Main extends Component {
         </div>
         </div>
 
-        <div className="panel panel-default" style={{marginTop:"-15px"}}>
+        <div className="panel panel-default pan" style={{marginTop:"-15px"}}>
         <div className="panel-body"  style={{marginBottom:"-10px"}}>
           <div className="col-lg-1 col-md-1 col-sm-1 col-xs-12">
            <i className="fab fa-adn"></i>
