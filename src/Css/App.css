@@ -9,7 +9,7 @@ body{
     background-color: #fff;
 }
 
-.vl {
-    border-left: solid green;
-    height: 500px;
+.sidebar{
+  margin-top: 90px;
+  margin-left: 20px;
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Navbar,Panel} from 'react-bootstrap';
+import {Navbar,Panel,Row} from 'react-bootstrap';
 import '../Css/App.css';
 
 class NavBar extends Component {
@@ -7,16 +7,31 @@ class NavBar extends Component {
        return (
              <div>
              <Panel className="sideNav">
-             <Panel.Body></Panel.Body>
+             <Panel.Body>
+             <div className="sidebar">
+              <Row style={{marginTop:"30px"}}>
+              <i className="fas fa-home"></i>
+              </Row>
+              <Row style={{marginTop:"30px"}}>
+              <i className="fab fa-dribbble"></i>
+              </Row >
+              <Row style={{marginTop:"30px"}}>
+              <i className="far fa-clipboard"></i>
+              </Row>
+              <Row style={{marginTop:"30px"}}>
+              <i className="fas fa-folder"></i>
+              </Row>
+              </div>
+             </Panel.Body>
              </Panel>
              <Navbar style={{backgroundColor:"#fff"}}>
                <Navbar.Header>
                   <Navbar.Brand>
-                    <a className="vl">Brand</a><hr/>
+                    <div><i className="fas fa-bars" style={{paddingleft:"-20px"}}></i></div>
                   </Navbar.Brand>
                </Navbar.Header>
               <Navbar.Collapse>
-                 <Navbar.Text pullRight>Cameron Svensson</Navbar.Text>
+                 <Navbar.Text pullRight><i className="fas fa-user fa-2x"></i>&nbsp;&nbsp;Cameron Svensson</Navbar.Text>
               </Navbar.Collapse>
             </Navbar>
 
