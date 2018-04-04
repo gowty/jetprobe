@@ -1,15 +1,88 @@
 body{
   background-color: #e7e7e7;
+  margin:0;
 }
 
-.sideNav {
-    width: 60px;
-    position: absolute;
-    height: 100%;
+/* navbar */
+.nav-bar{
+    width: 100%;
     background-color: #fff;
+    overflow: auto;
 }
 
-.sidebar{
-  margin-top: 90px;
-  margin-left: 20px;
+.nav-bar a {
+    float: left;
+    width: 55px;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: #000;
 }
+
+.nav-bar a:hover {
+    background-color: #e7e7e7;
+}
+
+.nav-bar p{
+  padding-top: 10px;
+  font-weight: 600;
+  padding-left: 1040px;
+}
+
+@media only screen and (max-width: 769px){
+  .nav-bar p{
+    padding-left: 100px;
+  }
+}
+
+/* sidebar */
+
+.side-bar {
+    width: 55px;
+    background-color: #fff;
+    height:650px;
+}
+
+@media only screen and (max-width: 769px){
+  .side-bar {
+      height:100%%;
+  }
+}
+
+.side-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: #000;
+}
+
+.main {
+    margin-left: 80px;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: -630px;
+  }
+
+  .nav-tabs>li.active>a {
+      color: #555;
+      cursor: default;
+      background-color: #e7e7e7!important;
+      border: 0px solid #ddd!important;
+      border-bottom-color: transparent;
+  }
+
+  .nav-tabs>li>a {
+      color: #555;
+      cursor: pointer;
+      font-size: 15px;
+  }
+
+  .panels{
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .buttons{
+    box-shadow: 1px 3px 3px 0px #6f9dce;
+  }
