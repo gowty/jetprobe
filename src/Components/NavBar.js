@@ -13,7 +13,7 @@ class NavBar extends Component {
               <i className="fas fa-home"></i>
               </Row>
               <Row style={{marginTop:"30px"}}>
-              <i className="fab fa-dribbble"></i>
+              <i className="fab fa-dribbble" style={{color:"#007bbf"}}></i>
               </Row >
               <Row style={{marginTop:"30px"}}>
               <i className="far fa-clipboard"></i>
@@ -27,7 +27,7 @@ class NavBar extends Component {
              <Navbar style={{backgroundColor:"#fff"}}>
                <Navbar.Header>
                   <Navbar.Brand>
-                    <div><i className="fas fa-bars" style={{paddingleft:"-20px"}}></i></div>
+                    <div><i className="fas fa-bars" style={{paddingleft:"-120px"}}></i></div>
                   </Navbar.Brand>
                </Navbar.Header>
               <Navbar.Collapse>
