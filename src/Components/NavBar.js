@@ -35,13 +35,6 @@ class NavBar extends Component {
             </Navbar>
 
              </div>
-             <div className="side-bar">
-             <a><i style={{marginTop:"40px"}} className="fas fa-home"></i></a>
-             <a style={{borderRight: "2px solid #1e73fc"}}><i style={{color:"#1e73fc"}} className="fab fa-dribbble"></i></a>
-             <a><i className="far fa-clipboard"></i></a>
-             <a><i className="fas fa-folder"></i></a>
-             </div>
-             </div>
        );
    }
 }
